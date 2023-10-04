@@ -15,3 +15,7 @@
     --text-color: #fff;
     --main-color: #0ef;
 }
+html {
+    font-size: 62.5%;
+    overflow-x: hidden;
+}
