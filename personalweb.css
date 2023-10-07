@@ -166,7 +166,7 @@ span {
     gap: 25px;
   }
   .no-causes{
-    color:#6BF579;
+    color:var(--main-color);
   }
   .card-causes {
     height: 280px;
@@ -192,3 +192,4 @@ span {
   .content-causes {
     padding: 1rem;
   }
+
