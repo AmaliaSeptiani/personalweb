@@ -212,7 +212,11 @@ margin-bottom: 4rem;
     display: flex;
 }
 .portofolio-box img {
-    width: 100;
+    width: 100%;
+    transition: .5s ease;
+}
+.portofolio-box:hover img{
+    transform: scale(1.1);
 }
 .portofolio-box .portofolio-layer {
     position: absolute;
@@ -227,6 +231,11 @@ margin-bottom: 4rem;
     flex-direction: column;
     text-align: center;
     padding: 0 4rem;
+    transform: translateY(100%);
+    transition: .5s ease;
+}
+.portofolio-box:hover .portofolio-layer {
+transform: translateY(0);
 }
 .portofolio-layer h4{
     font-size: 3rem;
