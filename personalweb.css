@@ -192,4 +192,15 @@ span {
   .content-causes {
     padding: 1rem;
   }
-
+  .portofolio{
+    background: var(--second-bg-color);
+}
+.portofolio h2{
+margin-bottom: 4rem;
+    }
+    .portofolio-container{
+        display: grid;
+        grid-template-columns:repeat(3, 1fr);
+        align-items: center;
+        gap: 2.5rem;
+    }
