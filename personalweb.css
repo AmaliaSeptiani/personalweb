@@ -300,6 +300,13 @@ transform: translateY(0);
  section{
     padding: 10rem 3% 2rem;
  }
+ .blog{
+    padding-bottom: 7rem;
+ }
+ .portofolio{
+    padding-bottom: 7rem;
+ }
+
  .footer{
     padding: 2rem 3%;
  }
@@ -349,5 +356,39 @@ transform: translateY(0);
         width: 70vw;
         margin-top: 4rem;
     }
+    .blog h2{
+        margin-bottom: 3rem;
+    }
+    .portofolio h2{
+        margin-bottom: 3rem;
+    }
+    .portofolio-container{
+        grid-template-columns: repeat(2, 1fr);
+    }
  }
 
+ @media (max-width: 617px){
+    .portofolio-container{
+        grid-template-columns: 1fr;
+    }
+ }
+@media (max-width: 450px){
+    html{
+        font-size: 50%;
+    }
+}
+@media (max-width:365px){
+    .home-img img{
+        width: 90vw;
+    }
+    .about-img img{
+        width: 90vw;
+    }
+    .footer{
+        flex-direction: column-reverse;
+    }
+    .footer p {
+        text-align: center;
+        margin-top: 2rem;
+    }
+}
