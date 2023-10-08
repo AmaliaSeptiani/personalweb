@@ -153,6 +153,10 @@ span {
     align-items: center;
     justify-content: center;
   }
+  .causes-1,.causes-2, .causes-3, .causes-4{
+    color: white;
+    text-decoration: none;
+  }
   .top-causes {
     width: 80%;
     display: grid;
@@ -170,26 +174,30 @@ span {
   }
   .no-causes{
     color:var(--main-color);
+    font-size: 3rem;
   }
   .card-causes {
     height: 280px;
     border-radius: 10px;
   }
+  .content-causes h3{
+    font-size: 2.3rem;
+  }
   
   .causes-1 {
-    background: url(https://cdn.discordapp.com/attachments/1153638653332029440/1154727282129244160/abundance-organic-seafood-multi-colored-bowl-symbol-celebration-generated-by-ai_1.png);
+    background: url(https://cdn.discordapp.com/attachments/1153638653332029440/1160481980396359680/img1.png?ex=6534d210&is=65225d10&hm=51376c202b2af207f319508dfd326dbd1289591141d1dd2c7e2118a16549e3e2&);
     background-size: 100% 100%;
   }
   .causes-2 {
-    background: url(https://cdn.discordapp.com/attachments/1153638653332029440/1154726646000123955/group-children-lying-reading-grass-field_1.png);
+    background: url(https://cdn.discordapp.com/attachments/1153638653332029440/1160484572614635581/img2.png?ex=6534d47a&is=65225f7a&hm=bd688bd18578b1502d2e350aa1f8763df7662133e0df47bb56b7e31c1dc64e05&);
     background-size: 100% 100%;
   }
   .causes-3 {
-    background: url(https://media.discordapp.net/attachments/1153638653332029440/1153662952738668555/wet-reflection-dirty-water-environmental-damage-generated-by-ai_1.png);
+    background: url(https://cdn.discordapp.com/attachments/1153638653332029440/1160487358723002520/img3.png?ex=6534d713&is=65226213&hm=36d2e342e8bfb4cc4e5f3b2834ca0969e87ca910a849aded27f795fbd0d3928c&);
     background-size: 100% 100%;
   }
   .causes-4 {
-    background: url(https://cdn.discordapp.com/attachments/1153638653332029440/1153663225896910888/children-diverse-ethnicities-explore-nature-smiling-with-happiness-generated-by-ai_1.png);
+    background: url(https://cdn.discordapp.com/attachments/1153638653332029440/1160490066368548865/img4.png?ex=6534d998&is=65226498&hm=f1aa6fc202f9343bc6f6a0cc46bb4dab825a39cfd222f642ec4feaa9651228fd&);
     background-size: 100% 100%;
   }
   .content-causes {
