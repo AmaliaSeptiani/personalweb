@@ -179,6 +179,9 @@ span {
   .card-causes {
     height: 280px;
     border-radius: 10px;
+    background: linear-gradient(rgba(0, 0, 0, .1), var(--main-color));
+    width: 100%;
+    bottom: 0;
   }
   .content-causes h3{
     font-size: 2.3rem;
@@ -195,6 +198,8 @@ span {
   .causes-3 {
     background: url(https://cdn.discordapp.com/attachments/1153638653332029440/1160487358723002520/img3.png?ex=6534d713&is=65226213&hm=36d2e342e8bfb4cc4e5f3b2834ca0969e87ca910a849aded27f795fbd0d3928c&);
     background-size: 100% 100%;
+    width: 100%;
+    transition: .5s ease;
   }
   .causes-4 {
     background: url(https://cdn.discordapp.com/attachments/1153638653332029440/1160490066368548865/img4.png?ex=6534d998&is=65226498&hm=f1aa6fc202f9343bc6f6a0cc46bb4dab825a39cfd222f642ec4feaa9651228fd&);
@@ -323,6 +328,12 @@ transform: translateY(0);
     #menu-icon {
         display: block;
     }
+    .top-causes, .bot-causes{
+        display: block;
+    }
+    .card-causes{
+        height: 300px;
+    }
     .navbar{
         position: absolute;
         top: 100%;
@@ -399,4 +410,9 @@ transform: translateY(0);
         text-align: center;
         margin-top: 2rem;
     }
+    
+    .no-causes{
+        font-size: 1rem;
+    }
+
 }
