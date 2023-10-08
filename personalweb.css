@@ -262,13 +262,13 @@ transform: translateY(0);
     justify-content: space-between;
     align-items: center;
     flex-wrap: wrap;
-    pad: 2rem 9%;
-    background: var(--second-bg-color);
+    padding: 2rem 9%;
+    background: var(--bg-color)
 }
 .footer-text p{
     font-size: 1.6rem;
 }
-.footer-iconTop{
+.footer-iconTop a{
     display: inline-flex;
     justify-content: center;
     align-items: center;
